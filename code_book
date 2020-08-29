@@ -1,0 +1,25 @@
+About R script
+File with R code "run_analysis.R" 
+
+About variables:
+
+contain data from training tables:
+*train_1 
+*train_2
+*subject_train
+
+contains data from the testing tables:
+
+*test_1
+*test_2
+*subject_test
+
+contains data from feactures.txt
+*feactures
+
+contains data from activity_labels.txt
+*feactures
+
+
+x_data, y_data and subject_data merge the previous datasets to further analysis.
+features contains the correct names for the x_data dataset, which are applied to the column names stored in
