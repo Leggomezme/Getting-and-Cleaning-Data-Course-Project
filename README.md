@@ -17,19 +17,19 @@ You should create one R script called run_analysis.R that does the following.
 *Appropriately labels the data set with descriptive variable names.
 *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## About this R script "run_analysis.R"
+# About this R script "run_analysis.R"
 
-## description of how the script works:
+ description of how the script works:
 
 ## 1.Merging the training and the test sets to create one data set.
-### Downloading and unzipping dataset
-### Reading files:
+### * Downloading and unzipping dataset
+### * Reading files:
     *trainings tables
     *testing tables
     *feature vector
     *activity labels
-### Assigning column names
-### Merging all data in one set
+### * Assigning column names
+### * Merging all data in one set
 
 ##  2.Extracting only the measurements on the mean and standard deviation for each measurement
 * Reading column names
