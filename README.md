@@ -21,21 +21,22 @@ You should create one R script called run_analysis.R that does the following.
 
 description of how the script works:
 
-Merging the training and the test sets to create one data set.
+-Merging the training and the test sets to create one data set.
 ### Downloading and unzipping dataset
-### Reading files
-#### Reading trainings tables
-####Reading testing tables
-####Reading feature vector
-####Reading activity labels
+### Reading files:
+    *trainings tables
+    *testing tables
+    *feature vector
+    *activity labels
 ### Assigning column names
 ### Merging all data in one set
-##Extracting only the measurements on the mean and standard ##deviation for each measurement
- ###Reading column names
-####Create vector for defining ID, mean and standard deviation
-#### Making nessesary subset from setAllInOne
-####Using descriptive activity names to name the activities in the data set
-####Appropriately labeling the data set with descriptive variable names
-###Creating a second, independent tidy data set with the average of each variable for each activity and each subject
-#### Making second tidy data set
-#### Writing second tidy data set in txt file
+
+-Extracting only the measurements on the mean and standard deviation for each measurement
+### Reading column names
+### Create vector for defining mean, standard deviation and ID 
+### Making nessesary subset from setAllInOne
+-Using descriptive activity names to name the activities in the data set
+-Appropriately labeling the data set with descriptive variable names
+-Creating a second, independent tidy data set with the average of each variable for each activity and each subject
+### Making second tidy data set
+### Writing second tidy data set in txt file
