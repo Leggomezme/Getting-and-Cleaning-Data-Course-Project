@@ -14,12 +14,16 @@ contains data from the testing tables:
 *test_2
 *subject_test
 
-contains data from feactures.txt
+contains data from feactures.txt:
 *feactures
 
-contains data from activity_labels.txt
+contains data from activity_labels.txt:
 *feactures
 
+merge the previous datasets to further analysis:
+*datos 1
+*datos2
+*Subject 
 
-x_data, y_data and subject_data merge the previous datasets to further analysis.
-features contains the correct names for the x_data dataset, which are applied to the column names stored in
+contain std and mean:
+index
