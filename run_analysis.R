@@ -33,14 +33,19 @@ datos1<-rbind(test_1, train_1)
 datos2<-rbind(test_2, train_2)
 Subject<-rbind(subject_test, subject_train)
 
+#******************************************************************
 #2.-Extracts only the measurements on the mean and standard deviation for each measurement.
+
+#******************************************************************
 
 #getting features indices which contain std and mean
 index<-grep("mean\\(\\)|std\\(\\)", features[,2]) 
 datos1<- datos1[,index]
 
+#******************************************************************
 #Step 3. Uses descriptive activity names to name the activities in the data set
 
+#******************************************************************
 datos2[,1]<-activityLabels[datos2[,1],2]
 head(datos2) 
 #******************************************************************
