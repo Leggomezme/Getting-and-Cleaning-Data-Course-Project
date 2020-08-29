@@ -19,9 +19,9 @@ You should create one R script called run_analysis.R that does the following.
 
 ## About this R script "run_analysis.R"
 
-description of how the script works:
+## description of how the script works:
 
--Merging the training and the test sets to create one data set.
+## 1.Merging the training and the test sets to create one data set.
 ### Downloading and unzipping dataset
 ### Reading files:
     *trainings tables
@@ -31,12 +31,12 @@ description of how the script works:
 ### Assigning column names
 ### Merging all data in one set
 
--Extracting only the measurements on the mean and standard deviation for each measurement
-### Reading column names
-### Create vector for defining mean, standard deviation and ID 
-### Making nessesary subset from setAllInOne
--Using descriptive activity names to name the activities in the data set
--Appropriately labeling the data set with descriptive variable names
--Creating a second, independent tidy data set with the average of each variable for each activity and each subject
-### Making second tidy data set
-### Writing second tidy data set in txt file
+##  2.Extracting only the measurements on the mean and standard deviation for each measurement
+* Reading column names
+* Create vector for defining mean, standard deviation and ID 
+* Making nessesary subset from setAllInOne
+## 3.Using descriptive activity names to name the activities in the data set
+## 4.Appropriately labeling the data set with descriptive variable names
+## 5.Creating a second, independent tidy data set with the average of each variable for each activity and each subject
+* Making second tidy data set
+* Writing second tidy data set in txt file
