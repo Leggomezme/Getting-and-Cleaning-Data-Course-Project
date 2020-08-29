@@ -1,18 +1,18 @@
-About R script
-File with R code "run_analysis.R" 
+# About R script
+## File with R code "run_analysis.R" 
 
-About variables:
+## About variables:
 
 contain data from training tables:
-*train_1 
-*train_2
-*subject_train
+* train_1 
+* train_2
+* subject_train
 
 contains data from the testing tables:
 
-*test_1
-*test_2
-*subject_test
+* test_1
+* test_2
+* subject_test
 
 contains data from feactures.txt:
 *feactures
