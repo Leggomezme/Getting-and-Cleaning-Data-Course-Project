@@ -15,13 +15,13 @@ Contains data from the testing tables:
 * subject_test
 
 Contains data from feactures.txt:
-*feactures
+* feactures
 
 Contains data from activity_labels.txt:
 * activityLabels
 
 Merge the previous datasets to further analysis:
-* datos 1
+* datos1
 * datos2
 * Subject 
 
