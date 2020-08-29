@@ -18,12 +18,12 @@ contains data from feactures.txt:
 *feactures
 
 contains data from activity_labels.txt:
-*feactures
+* activityLabels
 
 merge the previous datasets to further analysis:
-*datos 1
-*datos2
-*Subject 
+* datos 1
+* datos2
+* Subject 
 
 contain std and mean:
-index
+* index
