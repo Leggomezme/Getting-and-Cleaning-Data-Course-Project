@@ -15,10 +15,10 @@ Contains data from the testing tables:
 * subject_test : test/subject_test.txt : 2947 rows, 1 column. Contains recorded features test data
 
 Contains data from features.txt:
-* features 561 rows, 2 columns
+* features: 561 rows, 2 columns
 
 Contains data from activity_labels.txt:
-* activityLabels  6 rows, 2 columns - List of activities performed when the corresponding measurements
+* activityLabels:  6 rows, 2 columns - List of activities performed when the corresponding measurements
 
 * index : Contains std and mean
 
