@@ -27,7 +27,7 @@ subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
 features <- read.table('./data/UCI HAR Dataset/features.txt')
 
 # 1.1.4 Reading activity labels:
-activityLabels = read.table('./data/UCI HAR Dataset/activity_labels.txt')
+activityLabels <- read.table('./data/UCI HAR Dataset/activity_labels.txt')
 #1.3 Merging all data in one set:
 datos1<-rbind(test_1, train_1)
 datos2<-rbind(test_2, train_2)
