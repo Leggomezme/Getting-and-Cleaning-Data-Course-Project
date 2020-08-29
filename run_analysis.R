@@ -56,7 +56,7 @@ names<-features[index,2]
 ## updating colNames for new dataset
 names(datos1)<-names 
 names(Subject)<-"Subject_ID"
-names(datos2)<-"Activity"
+names(datos2)<-"Activity_ID"
 CleanedData<-cbind(Subject, datos2, datos1)
 
 #******************************************************************
@@ -67,7 +67,7 @@ CleanedData<-cbind(Subject, datos2, datos1)
 library(data.table)
 CleanedData<-data.table(CleanedData)
 ## features average by Subject and by activity
-Datos_finales <- CleanedData[, lapply(.SD, mean), by = 'Subject_ID,Activity']
+Datos_finales <- CleanedData[, lapply(.SD, mean), by = 'Subject_ID,Activity_ID']
 #5.2 Writing second tidy data set in txt file
 
 write.table(Datos_finales, "Datos_finales.txt", row.name=FALSE)
