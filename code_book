@@ -3,27 +3,30 @@
 
 ## About variables:
 
-contain data from training tables:
+Contain data from training tables:
 * train_1 
 * train_2
 * subject_train
 
-contains data from the testing tables:
+Contains data from the testing tables:
 
 * test_1
 * test_2
 * subject_test
 
-contains data from feactures.txt:
+Contains data from feactures.txt:
 *feactures
 
-contains data from activity_labels.txt:
+Contains data from activity_labels.txt:
 * activityLabels
 
-merge the previous datasets to further analysis:
+Merge the previous datasets to further analysis:
 * datos 1
 * datos2
 * Subject 
 
-contain std and mean:
+Contain std and mean:
 * index
+
+Unio of clean data:
+*CleanedData
